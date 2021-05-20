@@ -1,0 +1,80 @@
+
+@media only screen and (min-width: 37.5em) {
+   
+  
+  .banner .weather-summary{
+    width: 100%;
+   
+  }
+  
+  
+  /*------------HEADER-----------*/
+  header img{
+    width:200px;
+   
+  } 
+
+    h1,h2 {
+        font-size: 2.5rem;
+    }
+
+    .motto {
+        font-size: 1rem;
+    }
+   
+
+    /*------------NAV-----------*/
+    .ul-nav {
+        display: flex;
+    }
+    
+    .ul-nav li:first-child{
+        display: none;
+    }
+
+    .ul-nav li{
+        display: block;
+        flex: 1 1 100%;
+    }
+   
+
+             
+
+ 
+              /*------------CONTACT INFO-----------*/
+              footer{
+            
+        align-items: center;
+         text-align: center;
+              }
+.contact{
+        display: flex;
+        flex-flow:row;
+        align-items: center;
+         text-align: center;
+        max-width: 500px;
+        margin-left: 25%;
+        margin-right: 17%;
+        
+        }  
+        
+        .locations{
+          display: flex;
+          flex-flow:row;
+          align-items: center;
+          text-align: center;
+          justify-content: space-around;
+         }
+         .div-location{
+          
+          margin:5px ;
+        }
+        
+      /*-Articles-*/
+.article{
+  margin-top:30px;
+}
+.article-tours img{
+  max-width: 250px; 
+}
+}

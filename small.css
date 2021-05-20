@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header, main {
+    max-width: 767px;
+    margin: 0 auto;
+}
+body{
+  
+    background-color: rgb(238, 238, 238);
+  }
+
+  /*------------HEADER-----------*/
+  header{
+    
+    background-color: rgb(238, 238, 238);
+    color:#ff4a1c;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  } 
+
+  header img{
+    width:100px;
+    height: auto;
+    transition:0.5s;
+  } 
+
+ header img:hover{
+   transform:scale(1.2);
+ }
+  .motto {
+   font-family: "Open Sans", sans-serif;
+   margin-left: 15px;
+   font-size: 1rem;
+   letter-spacing: 3pt;
+   color:#2EC4B6;
+}
+
+
+
+     /*------------NAV-----------*/
+nav{
+  background-color: #0EABF3;
+  text-align: center;
+  margin: 0 auto;
+  position: sticky;
+	top: 0px;
+	z-index: 100;
+  border-radius: 3px;
+    
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.ul-nav{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.ul-nav li:first-child {
+  display: block;
+}
+.ul-nav li {
+display: none;
+}
+.ul-nav a {
+  color:white;
+display: block;
+text-align: center;
+padding: 0.75rem;
+text-decoration: none;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.active {
+  border-radius:3px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.active a{
+  color:#14213D;
+  
+}
+.ul-nav a:hover{
+  background-color: #007ABD;
+      color:white;
+      border-radius:3px;
+      box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+    
+    }
+    .responsive li {
+      display: block;
+  }
+    .color-link:hover{
+      color:#14213D;
+    }
+
+    
+    
+  /*------------MAIN-----------*/ 
+  
+  main {
+  
+    max-width: 800px;
+    font-size: 18px;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+  }
+h1 {
+  
+  margin: 0.67em 0;
+  font-family: 'Pattaya', sans-serif;
+  padding-left:4%;
+  
+}
+.branch{
+  font-family: 'Pattaya', sans-serif;
+}
+h2{
+  margin: 5%;
+  font-family: 'Playfair Display', serif;
+ }
+ .headings{
+  font-family: 'Playfair Display', serif;
+ }
+ p{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+
+
+/*-MAIN links-*/
+ a{
+    color:#14213D;
+    text-decoration:none;
+    font-family: "Open Sans", sans-serif;
+  }
+  a:hover{
+    color:#FF4A1C;
+  }
+  footer a:hover{
+    color:white;
+  }
+  
+
+/*-Articles-*/
+.article{
+  max-width:800px;
+  margin: 10px auto;
+  background-color: #E5E5E5;
+  border-radius: 3px;
+  padding:5%;
+}
+.cont img {
+  margin-bottom:20px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  
+  
+}
+.article h2{
+  margin: 0 auto;
+  padding:5px;
+}
+.hover:hover{
+  background-color:#FF4A1C;
+  color:white;
+}
+.hover{
+  padding: 10px;
+}
+.hover a:hover{
+  color:#0EABF3;
+}
+
+
+ 
+
+   /*------------FOOTER-----------*/
+  
+   .footer-info{
+     margin-top:10px;
+     border-radius: 3px;
+    background-color:#0EABF3;
+    color:white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    
+   } 
+   /*------------CONTACT-----------*/
+.contact{
+  display: flex;
+  flex-flow:column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.contact img{
+  width:15%;
+  border-radius: 40px;
+  
+  transition:0.3s;
+  overflow:hidden;
+} 
+.contact img:hover{
+   transform:scale(1.2);
+   overflow:hidden;
+  
+ }
+ .locations{
+  display: flex;
+  flex-flow:column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+ }
+ .div-location{
+  max-width: 400px;
+  width:100%;
+  background-color: #E5E5E5;
+  border-radius: 10px;
+  margin:15px auto;
+}
+.div-location:hover{
+  
+  background-color: rgba(95, 129, 16, 0.2);
+}
+
+  
+   
